@@ -3,9 +3,19 @@
 [![PyPI](https://img.shields.io/pypi/v/lyzr-adk)](https://pypi.org/project/lyzr-adk/)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lyzr-ai/lyzr-adk-demo/blob/main/notebooks/01_getting_started.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/01_getting_started.ipynb)
 
-A series of **15 progressive Jupyter notebooks** for learning how to build production-ready AI agents with [lyzr-adk](https://pypi.org/project/lyzr-adk/) — from your first agent to a full research assistant with RAG, memory, tools, and safety guardrails.
+In 15 hands-on lessons you'll go from writing your first agent to building a WhatsApp Business co-pilot and a multi-agent e-commerce support system — all with [lyzr-adk](https://pypi.org/project/lyzr-adk/). Every notebook runs locally or in one click on Google Colab.
+
+---
+
+## Learning Path
+
+```
+🟢 Lessons 1–3    →    🟡 Lessons 4–8    →    🔴 Lessons 9–10    →    🚀 Bonus 14–15
+  First agent          Memory, tools,          Guardrails +            WhatsApp +
+                       RAG, contexts            Capstone              Multi-agent
+```
 
 ---
 
@@ -34,7 +44,7 @@ A series of **15 progressive Jupyter notebooks** for learning how to build produ
 
 **Option A — Run locally:**
 ```bash
-git clone https://github.com/lyzr-ai/lyzr-adk-demo.git
+git clone https://github.com/harshit-vibes/lyzr-adk-demo.git
 cd lyzr-adk-demo
 pip install -r requirements.txt
 cp .env.example .env        # add your LYZR_API_KEY
@@ -42,7 +52,7 @@ jupyter notebook
 ```
 
 **Option B — Run on Google Colab:**
-Click any "Open in Colab" badge in the lesson table below, or replace `github.com` with `githubtocolab.com` in any notebook URL.
+Click any "Open in Colab" badge in the lesson table below — no setup required.
 
 ---
 
@@ -50,33 +60,33 @@ Click any "Open in Colab" badge in the lesson table below, or replace `github.co
 
 ### Core Series (Lessons 1–10)
 
-| # | Notebook | Topic | Difficulty | Time |
-|---|----------|--------|------------|------|
-| 1 | [01_getting_started.ipynb](notebooks/01_getting_started.ipynb) | Hello, Agent! — Studio setup, create agent, run | 🟢 Beginner | 15 min |
-| 2 | [02_providers_and_models.ipynb](notebooks/02_providers_and_models.ipynb) | LLM Providers — OpenAI, Anthropic, Google, Groq | 🟢 Beginner | 20 min |
-| 3 | [03_agent_lifecycle.ipynb](notebooks/03_agent_lifecycle.ipynb) | Agent Management — list, retrieve, update, clone, delete | 🟢 Beginner | 20 min |
-| 4 | [04_structured_outputs.ipynb](notebooks/04_structured_outputs.ipynb) | Structured Outputs — type-safe responses with Pydantic | 🟡 Intermediate | 25 min |
-| 5 | [05_memory_and_sessions.ipynb](notebooks/05_memory_and_sessions.ipynb) | Memory & Sessions — multi-turn conversations | 🟡 Intermediate | 25 min |
-| 6 | [06_tools_and_functions.ipynb](notebooks/06_tools_and_functions.ipynb) | Custom Tools — Python functions as agent tools | 🟡 Intermediate | 30 min |
-| 7 | [07_knowledge_bases_rag.ipynb](notebooks/07_knowledge_bases_rag.ipynb) | RAG — knowledge bases, document ingestion, retrieval | 🟡 Intermediate | 30 min |
-| 8 | [08_contexts.ipynb](notebooks/08_contexts.ipynb) | Dynamic Contexts — inject background info into agents | 🟡 Intermediate | 20 min |
-| 9 | [09_rai_guardrails.ipynb](notebooks/09_rai_guardrails.ipynb) | Responsible AI — toxicity, PII, topic filters | 🔴 Advanced | 30 min |
-| 10 | [10_capstone_project.ipynb](notebooks/10_capstone_project.ipynb) | Capstone — full research assistant (all features) | 🔴 Advanced | 45 min |
+| # | Notebook | Topic | Difficulty | Time | Open |
+|---|----------|--------|------------|------|------|
+| 1 | [01_getting_started.ipynb](notebooks/01_getting_started.ipynb) | Hello, Agent! — Studio setup, create agent, run | 🟢 Beginner | 15 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/01_getting_started.ipynb) |
+| 2 | [02_providers_and_models.ipynb](notebooks/02_providers_and_models.ipynb) | LLM Providers — OpenAI, Anthropic, Google, Groq | 🟢 Beginner | 20 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/02_providers_and_models.ipynb) |
+| 3 | [03_agent_lifecycle.ipynb](notebooks/03_agent_lifecycle.ipynb) | Agent Management — list, retrieve, update, clone, delete | 🟢 Beginner | 20 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/03_agent_lifecycle.ipynb) |
+| 4 | [04_structured_outputs.ipynb](notebooks/04_structured_outputs.ipynb) | Structured Outputs — type-safe responses with Pydantic | 🟡 Intermediate | 25 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/04_structured_outputs.ipynb) |
+| 5 | [05_memory_and_sessions.ipynb](notebooks/05_memory_and_sessions.ipynb) | Memory & Sessions — multi-turn conversations | 🟡 Intermediate | 25 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/05_memory_and_sessions.ipynb) |
+| 6 | [06_tools_and_functions.ipynb](notebooks/06_tools_and_functions.ipynb) | Custom Tools — Python functions as agent tools | 🟡 Intermediate | 30 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/06_tools_and_functions.ipynb) |
+| 7 | [07_knowledge_bases_rag.ipynb](notebooks/07_knowledge_bases_rag.ipynb) | RAG — knowledge bases, document ingestion, retrieval | 🟡 Intermediate | 30 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/07_knowledge_bases_rag.ipynb) |
+| 8 | [08_contexts.ipynb](notebooks/08_contexts.ipynb) | Dynamic Contexts — inject background info into agents | 🟡 Intermediate | 20 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/08_contexts.ipynb) |
+| 9 | [09_rai_guardrails.ipynb](notebooks/09_rai_guardrails.ipynb) | Responsible AI — toxicity, PII, topic filters | 🔴 Advanced | 30 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/09_rai_guardrails.ipynb) |
+| 10 | [10_capstone_project.ipynb](notebooks/10_capstone_project.ipynb) | Capstone — full research assistant (all features) | 🔴 Advanced | 45 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/10_capstone_project.ipynb) |
 
 ### Optional Advanced Lessons
 
-| # | Notebook | Topic | Difficulty | Time |
-|---|----------|--------|------------|------|
-| 11 | [11_streaming.ipynb](notebooks/11_streaming.ipynb) | Streaming — real-time token-by-token responses | 🔴 Advanced | 20 min |
-| 12 | [12_image_and_file_generation.ipynb](notebooks/12_image_and_file_generation.ipynb) | Image Generation — DALL-E 3 and Gemini image models | 🔴 Advanced | 25 min |
-| 13 | [13_advanced_features.ipynb](notebooks/13_advanced_features.ipynb) | Advanced Features — reflection, bias check, groundedness | 🔴 Advanced | 25 min |
+| # | Notebook | Topic | Difficulty | Time | Open |
+|---|----------|--------|------------|------|------|
+| 11 | [11_streaming.ipynb](notebooks/11_streaming.ipynb) | Streaming — real-time token-by-token responses | 🔴 Advanced | 20 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/11_streaming.ipynb) |
+| 12 | [12_image_and_file_generation.ipynb](notebooks/12_image_and_file_generation.ipynb) | Image Generation — DALL-E 3 and Gemini image models | 🔴 Advanced | 25 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/12_image_and_file_generation.ipynb) |
+| 13 | [13_advanced_features.ipynb](notebooks/13_advanced_features.ipynb) | Advanced Features — reflection, bias check, groundedness | 🔴 Advanced | 25 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/13_advanced_features.ipynb) |
 
 ### Bonus Lessons
 
-| # | Notebook | Topic | Difficulty | Time |
-|---|----------|--------|------------|------|
-| 14 | [14_whatsapp_business_copilot.ipynb](notebooks/14_whatsapp_business_copilot.ipynb) | WhatsApp Co-pilot — Meta Cloud API + lyzr-adk agent | 🔴 Advanced | 35 min |
-| 15 | [15_multi_agent_ecommerce.ipynb](notebooks/15_multi_agent_ecommerce.ipynb) | Multi-agent — manager routes to 3 specialist sub-agents | 🔴 Advanced | 35 min |
+| # | Notebook | Topic | Difficulty | Time | Open |
+|---|----------|--------|------------|------|------|
+| 14 | [14_whatsapp_business_copilot.ipynb](notebooks/14_whatsapp_business_copilot.ipynb) | WhatsApp Co-pilot — Meta Cloud API + lyzr-adk agent | 🔴 Advanced | 35 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/14_whatsapp_business_copilot.ipynb) |
+| 15 | [15_multi_agent_ecommerce.ipynb](notebooks/15_multi_agent_ecommerce.ipynb) | Multi-agent — manager routes to 3 specialist sub-agents | 🔴 Advanced | 35 min | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/15_multi_agent_ecommerce.ipynb) |
 
 ---
 
@@ -117,7 +127,7 @@ Every lesson is self-contained and follows a consistent layout:
 - **Documentation**: [docs.lyzr.ai](https://docs.lyzr.ai)
 - **PyPI**: [pypi.org/project/lyzr-adk](https://pypi.org/project/lyzr-adk/)
 - **Community**: [discord.gg/lyzr](https://discord.gg/lyzr)
-- **Issues**: [GitHub Issues](https://github.com/lyzr-ai/lyzr-adk-demo/issues)
+- **Issues**: [GitHub Issues](https://github.com/harshit-vibes/lyzr-adk-demo/issues)
 
 ---
 
