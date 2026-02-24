@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lyzr-ai/lyzr-adk-demo/blob/main/notebooks/01_getting_started.ipynb)
 
-A series of **13 progressive Jupyter notebooks** for learning how to build production-ready AI agents with [lyzr-adk](https://pypi.org/project/lyzr-adk/) — from your first agent to a full research assistant with RAG, memory, tools, and safety guardrails.
+A series of **15 progressive Jupyter notebooks** for learning how to build production-ready AI agents with [lyzr-adk](https://pypi.org/project/lyzr-adk/) — from your first agent to a full research assistant with RAG, memory, tools, and safety guardrails.
 
 ---
 
@@ -71,6 +71,13 @@ Click any "Open in Colab" badge in the lesson table below, or replace `github.co
 | 12 | [12_image_and_file_generation.ipynb](notebooks/12_image_and_file_generation.ipynb) | Image Generation — DALL-E 3 and Gemini image models | 🔴 Advanced | 25 min |
 | 13 | [13_advanced_features.ipynb](notebooks/13_advanced_features.ipynb) | Advanced Features — reflection, bias check, groundedness | 🔴 Advanced | 25 min |
 
+### Bonus Lessons
+
+| # | Notebook | Topic | Difficulty | Time |
+|---|----------|--------|------------|------|
+| 14 | [14_whatsapp_business_copilot.ipynb](notebooks/14_whatsapp_business_copilot.ipynb) | WhatsApp Co-pilot — Meta Cloud API + lyzr-adk agent | 🔴 Advanced | 35 min |
+| 15 | [15_multi_agent_ecommerce.ipynb](notebooks/15_multi_agent_ecommerce.ipynb) | Multi-agent — manager routes to 3 specialist sub-agents | 🔴 Advanced | 35 min |
+
 ---
 
 ## Project Structure
@@ -81,7 +88,9 @@ lyzr-adk-demo/
 │   ├── 01_getting_started.ipynb
 │   ├── 02_providers_and_models.ipynb
 │   ├── ...
-│   └── 13_advanced_features.ipynb
+│   ├── 13_advanced_features.ipynb
+│   ├── 14_whatsapp_business_copilot.ipynb
+│   └── 15_multi_agent_ecommerce.ipynb
 ├── .env.example          # Copy to .env and add your API key
 ├── requirements.txt
 ├── LICENSE
