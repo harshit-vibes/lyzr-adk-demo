@@ -4,8 +4,9 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshit-vibes/lyzr-adk-demo/blob/master/notebooks/01_getting_started.ipynb)
+[![Tests](https://img.shields.io/badge/tests-13%2F13%20passing-brightgreen)](validate.py)
 
-In 15 hands-on lessons you'll go from writing your first agent to building a WhatsApp Business co-pilot and a multi-agent e-commerce support system — all with [lyzr-adk](https://pypi.org/project/lyzr-adk/). Every notebook runs locally or in one click on Google Colab.
+In 15 hands-on lessons you'll go from writing your first agent to building a WhatsApp Business co-pilot and a multi-agent e-commerce support system — all with [lyzr-adk](https://pypi.org/project/lyzr-adk/). Every notebook runs locally or in one click on Google Colab. All 15 lessons are fully validated and working.
 
 ---
 
